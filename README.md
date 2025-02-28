@@ -10,4 +10,4 @@ Used architecture: FSD(Feature-Sliced Design)
 
 Used API: OpenSky REST API
 
-Stack of this project: Next.js, Typescript, ReduxToolKit(RTK), AntDesign, Sass/scss
+Stack of this project: Next.js, Typescript, ReduxToolKit(RTK), AntDesign

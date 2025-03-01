@@ -1,1 +1,1 @@
-export { Header } from './ui/Header';
+export { HeaderBlock } from './ui/HeaderBlock';

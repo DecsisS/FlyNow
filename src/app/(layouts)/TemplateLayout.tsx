@@ -9,12 +9,11 @@ const headerStyle: React.CSSProperties = {
     height: "auto",
     paddingInline: 48,
     lineHeight: '64px',
-    backgroundColor: '#4096ff',
 };
 
 const contentStyle: React.CSSProperties = {
     textAlign: 'center',
-    minHeight: 500,
+    minHeight: '500px',
     lineHeight: '120px',
     color: '#171717',
     backgroundColor: '#fff',
@@ -23,12 +22,12 @@ const contentStyle: React.CSSProperties = {
 const footerStyle: React.CSSProperties = {
     textAlign: 'center',
     color: '#fff',
-    backgroundColor: '#4096ff',
 };
 
 const layoutStyle = {
     overflow: 'hidden',
     width: '100%',
+    minHeight: '100vh',
 };
 
 function TemplateLayout(props: PropsWithChildren) {

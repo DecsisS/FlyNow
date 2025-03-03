@@ -7,11 +7,14 @@ function AntdLayout(props: PropsWithChildren) {
         <AntdRegistry>
             <ConfigProvider theme={{
                 token: {
+                    fontFamily: 'inherit',
                     colorPrimary: "#fafafa",
+                    colorSuccess: "#bdbdbd",
                     colorText: "#e0e0e0",
-                    colorBgBase: '#4096ff',
-                    colorBgContainer: '#4096ff',
-                }
+                    colorTextBase: "#0f0f0f",
+                    colorBgBase: '#185CFF',
+                    colorBgContainer: '#185CFF',
+                },
             }}>
                 {props.children}
             </ConfigProvider>

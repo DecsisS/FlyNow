@@ -40,6 +40,7 @@ export const NavBlock: FC = () => {
             selectedKeys={[current]}
             mode='horizontal'
             items={items}
+            disabledOverflow={true}
         />
     )
 };

@@ -8,14 +8,17 @@ const items = [
     {
         text: 'flynow@info.co.us',
         icon: mailIcon,
+        link: 'mailto:flynow@info.co.us'
     },
     {
         text: '+1 601-201-5580',
         icon: telIcon,
+        link: 'tel:+16012015580'
     },
     {
-        text: '1642 Washington Avenue, Jackson, MS, Mississippi, 39201',
+        text: '226 N State St, Jackson, MS 39201, US',
         icon: locateIcon,
+        link: 'https://maps.app.goo.gl/892KndeR6envpXLq7'
     },
 ];
 

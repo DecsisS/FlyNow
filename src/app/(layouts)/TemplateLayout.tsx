@@ -15,16 +15,16 @@ function TemplateLayout(props: PropsWithChildren) {
         textAlign: 'center',
         height: "auto",
         paddingInline: 48,
-        lineHeight: '64px',
         backgroundColor: token.colorBgContainer,
     };
 
     const contentStyle: React.CSSProperties = {
+        height: 'auto',
         textAlign: 'center',
         minHeight: '500px',
-        lineHeight: '120px',
+        paddingBlock: 50,
+        paddingInline: 48,
         backgroundColor: token.colorPrimary,
-        color: token.colorTextBase,
     };
 
     const footerStyle: React.CSSProperties = {

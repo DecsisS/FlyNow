@@ -24,7 +24,7 @@ function TemplateLayout(props: PropsWithChildren) {
         minHeight: '500px',
         paddingBlock: 50,
         paddingInline: 48,
-        backgroundColor: token.colorPrimary,
+        backgroundColor: token.colorBgLayout,
     };
 
     const footerStyle: React.CSSProperties = {

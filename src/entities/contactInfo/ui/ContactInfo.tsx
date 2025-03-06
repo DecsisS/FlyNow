@@ -1,8 +1,8 @@
 import { TemplateFooterItem } from "@/shared/ui/public"
 import { PropsWithChildren } from "react"
-import mailIcon from '@/shared/lib/icons/commonIcons/mail.svg';
-import telIcon from '@/shared/lib/icons/commonIcons/telephone.svg';
-import locateIcon from '@/shared/lib/icons/commonIcons/location.svg';
+import mailIcon from '@/shared/lib/imgs/icons/commonIcons/mail.svg';
+import telIcon from '@/shared/lib/imgs/icons/commonIcons/telephone.svg';
+import locateIcon from '@/shared/lib/imgs/icons/commonIcons/location.svg';
 
 const items = [
     {

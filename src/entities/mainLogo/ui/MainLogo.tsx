@@ -1,5 +1,5 @@
 import { Flex, Typography } from 'antd';
-import mainIcon from '../../../shared/lib/icons/mainIcon.svg';
+import mainIcon from '../../../shared/lib/imgs/icons/mainIcon.svg';
 import React from 'react'
 import Image from 'next/image';
 import Text from 'antd/es/typography/Text';

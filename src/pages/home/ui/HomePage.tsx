@@ -1,7 +1,12 @@
+import { StartBlock } from "@/widgets/homePageBlocks/startBlock/public";
+import { PartnersBlock } from "@/widgets/partners/public";
+import { Flex } from "antd";
+
 export function HomePage() {
     return (
-        <div className={'styles.pageContainer'}>
-            Hi! We glad to see you in our App!
-        </div>
+        <Flex vertical gap={20}>
+            <StartBlock />
+            <PartnersBlock />
+        </Flex>
     )
 };

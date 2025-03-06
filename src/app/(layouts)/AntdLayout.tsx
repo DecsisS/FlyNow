@@ -9,8 +9,9 @@ function AntdLayout(props: PropsWithChildren) {
                 token: {
                     fontFamily: 'inherit',
 
-                    colorPrimary: "#fafafa",
+                    colorPrimary: "#185CFF",
                     colorSuccess: "#bdbdbd",
+                    colorBgLayout: "#fafafa",
                     colorText: "#0f0f0f",
                     colorTextBase: "#0f0f0f",
                     colorBgBase: '#185CFF',
@@ -20,6 +21,7 @@ function AntdLayout(props: PropsWithChildren) {
                 },
                 components: {
                     Menu: {
+                        colorPrimary: "#fafafa",
                         colorText: "#e0e0e0",
                     },
                     Typography: {

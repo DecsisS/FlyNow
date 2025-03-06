@@ -3,7 +3,7 @@ import Paragraph from "antd/es/typography/Paragraph";
 import Title from "antd/es/typography/Title";
 import Image from "next/image";
 import Link from "next/link";
-import sadSmile from '@/shared/lib/icons/smiles/sadSmile.webp'
+import sadSmile from '@/shared/lib/imgs/icons/smiles/sadSmile.webp'
 import { VerticalAlignBottomOutlined } from "@ant-design/icons";
 
 export function NotFound404() {

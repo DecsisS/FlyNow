@@ -1,3 +1,4 @@
+import { ChooseBlock } from "@/widgets/homePageBlocks/chooseBlock/public";
 import { StartBlock } from "@/widgets/homePageBlocks/startBlock/public";
 import { PartnersBlock } from "@/widgets/partners/public";
 import { Flex } from "antd";
@@ -7,6 +8,7 @@ export function HomePage() {
         <Flex vertical gap={20}>
             <StartBlock />
             <PartnersBlock />
+            <ChooseBlock />
         </Flex>
     )
 };
